@@ -1,5 +1,5 @@
 import { defineConfig, getKnexTimestampPrefix } from 'kysely-ctl'
-import { dialect as kysely } from './db'
+import { db as kysely } from './db'
 
 export default defineConfig({
   kysely,
